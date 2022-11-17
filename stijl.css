@@ -1,0 +1,121 @@
+/* drie basisstijlregels om je te helpen */
+:root {font-size: 100%;  /* zet je dit op 62.5%, dan is elke rem 10px waard, anders 16px */ }
+html {box-sizing: border-box;}
+*, *:before, *:after {box-sizing: inherit;}
+
+/* hier komt jouw css */
+html{
+    background-color:  #2D2F3B;;
+}
+header{
+    background-color: white;
+}
+body{
+
+    display: grid;
+    grid-template-rows: 40% 60%;
+    height: 100vh;
+}
+
+
+
+
+@font-face {
+   font-family: Lato ;
+    src: url(Lato-Black.ttf);
+    
+}
+
+@font-face {
+    font-family: lato liight;
+    src: url(/Lato-Light.ttf);
+}
+
+
+h2{
+
+    font-family: Lato;
+    color: #666d89;
+    font-size: 30px;
+    padding: 10px;
+
+}
+
+.text1{
+    color:#767e9e
+}
+
+section {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+
+header div{
+
+    padding: 20px 20px;
+}
+
+main,header{
+    padding: 20px
+}
+
+ul li{
+    padding: 20px;
+}
+p{
+font-family: lato liight;
+font-size: 12px;
+}
+
+h3{
+    font-family: Lato;
+    font-size: 16px;
+}
+
+article{
+    display: flex;
+    
+}
+
+nav ul{
+    display: flex;
+    justify-content: flex-start;
+    font-size: 12px;
+
+    
+}
+
+
+main figure  {
+padding-left: 150px;
+
+    display: grid;
+    grid-template-rows: repeat(3, max-content) ;
+    grid-template-columns: repeat(4,max-content) ;
+    gap: 15px;
+ 
+
+;}
+
+section article h3{
+    color:#666d89
+}
+section article p{
+    color : #767e9e
+}
+
+img{
+    padding: 10px;
+}
+
+header figure img{
+    border-radius: 50%;
+    border: solid;
+
+}
+
+
+    
